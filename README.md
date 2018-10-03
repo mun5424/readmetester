@@ -1,4 +1,3 @@
-# readmetester
 # Fundspring
 
 Monorepo for Fundspring for LF Foundation.
@@ -6,14 +5,18 @@ Monorepo for Fundspring for LF Foundation.
 ## Dependencies
 
 - node version 8.11
-If you are using node version later than 9, you will need to roll back to a version greater than 4 and less than 9. 
+
+If you are using node version later than 9, you will need to roll back to a version greater than 4 and less than 9.
+
 Run the following commands on Homebrew. 
+
 ```
 brew install node@8
 brew unlink node 
 brew link node@8 
 ```
 - golang version 1.10
+
 Make sure to have this repository under the correct $GOPATH else the go build commands will not work.
 
 - gometalinter
